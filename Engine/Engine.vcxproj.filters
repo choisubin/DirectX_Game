@@ -11,7 +11,7 @@
       <UniqueIdentifier>{300f6233-f1b4-4f18-9360-c9bfe0308e34}</UniqueIdentifier>
     </Filter>
     <Filter Include="Shader">
-      <UniqueIdentifier>{e3c71771-a5c7-4dd6-84d6-1e18bd57b2eb}</UniqueIdentifier>
+      <UniqueIdentifier>{710a24eb-3b22-4cba-b53b-42897f27a6d4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -41,6 +41,9 @@
     </ClCompile>
     <ClCompile Include="Shader.cpp">
       <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBuffer.cpp">
+      <Filter>Engine</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -73,6 +76,9 @@
     </ClInclude>
     <ClInclude Include="Shader.h">
       <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>Engine</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

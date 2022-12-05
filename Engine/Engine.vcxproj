@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b2d38117-c266-4689-907e-da6555e0f684}</ProjectGuid>
+    <ProjectGuid>{B2D38117-C266-4689-907E-DA6555E0F684}</ProjectGuid>
     <RootNamespace>Engine</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -164,6 +164,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="CommandQueue.h" />
+    <ClInclude Include="ConstantBuffer.h" />
     <ClInclude Include="d3dx12.h" />
     <ClInclude Include="Device.h" />
     <ClInclude Include="Engine.h" />
@@ -176,6 +177,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CommandQueue.cpp" />
+    <ClCompile Include="ConstantBuffer.cpp" />
     <ClCompile Include="Device.cpp" />
     <ClCompile Include="Engine.cpp" />
     <ClCompile Include="EnginePch.cpp" />
